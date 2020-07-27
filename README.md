@@ -45,14 +45,14 @@ Rules of acquisition
 
 GitHub has investors who do not care a whit for free software
 principles, and eventually [the company *will* get
-acquired](https://www.bloomberg.com/news/articles/2018-06-03/microsoft-is-said-to-have-agreed-to-acquire-coding-site-github)---maybe
-tomorrow, maybe next year---and as we all know, [money changes
+acquired](https://www.bloomberg.com/news/articles/2018-06-03/microsoft-is-said-to-have-agreed-to-acquire-coding-site-github)—maybe
+tomorrow, maybe next year—and as we all know, [money changes
 everything](https://www.youtube.com/watch?v=zLWbp3w2eqM).
 
-Don't leave your project's nerve center---its primary address, its means
+Don't leave your project's nerve center—its primary address, its means
 of contribution, its issue tracker, its website, its primary
-documentation, its continuous integration, everything---in a way you
-can't redirect!---at the mercy of people who merely want a return on
+documentation, its continuous integration, everything—in a way you
+can't redirect!—at the mercy of people who merely want a return on
 their investment, and do not care about the principles of a minority of
 angry nerds.
 
@@ -69,8 +69,8 @@ on using it or any other proprietary code hosting platform:
     this method, you don't need to host the code at all.
 
  Pull requests: 
-:   Host your own repositories---[it's really
-    easy](https://git-scm.com/book/no-nb/v1/Git-on-the-Server-The-Protocols#The-HTTP/S-Protocol)---and
+:   Host your own repositories—[it's really
+    easy](https://git-scm.com/book/no-nb/v1/Git-on-the-Server-The-Protocols#The-HTTP/S-Protocol)—and
     point maintainers to them with
     [git-request-pull(1)](https://git-scm.com/docs/git-request-pull).
 
@@ -101,7 +101,7 @@ here:
 -   <https://www.wired.com/2015/06/problem-putting-worlds-code-github/>
 -   <https://valdyas.org/fading/kde/why-arent-you-using-github/>
 
-Update---June 2018
+Update—June 2018
 ------------------
 
 Since this page was published, [Microsoft has acquired
@@ -118,14 +118,14 @@ self-host your code repositories, even if you use the resource-hungry
 GitLab to do it. It is not as hard as you think, and once done, this
 problem will never bite you again.
 
-Update---July 2019---1/2
+Update—July 2019—1/2
 ------------------------
 
 [Dave Lane explains in
 detail](https://davelane.nz/microsoft-there-way-win-our-trust) why the
 "Microsoft Loves Linux" slogan is so empty.
 
-Update---July 2019---2/2
+Update—July 2019—2/2
 ------------------------
 
 [GitHub is
@@ -135,7 +135,7 @@ it as a service for their projects, this has been crippling, in yet
 another vindication for the decentralized design of Git that GitHub and
 other third-party hosting sites have so callously butchered.
 
-Update---September 2019
+Update—September 2019
 -----------------------
 
 Hello, [visitors from
@@ -147,21 +147,21 @@ for accuracy and clarity.
 To emphasise: nothing in this essay is intended as praise or criticism
 specifically of social justice, advocacy for protected groups,
 censorship, United States foreign policy, or its [effect on GitHub
-specifically](https://help.github.com/en/articles/github-and-trade-controls)---they
+specifically](https://help.github.com/en/articles/github-and-trade-controls)—they
 have to follow the law, like anyone else. The focus here is on
 centralisation onto a commercial service, running proprietary code,
 subject to the laws of a single country, that already has a monopoly on
 code hosting for free and open source software, and the free software
 community's wilfully ignoring the issues therewith.
 
-Update---October 2019---1/2
+Update—October 2019—1/2
 ---------------------------
 
 The [GitHub section of the GNU Ethical Repository
 Criteria](https://www.gnu.org/software/repo-criteria-evaluation.html#GitHub)
 now links to this page. Thank you, GNU!
 
-Update---October 2019---2/2
+Update—October 2019—2/2
 ---------------------------
 
 It's become more widely known that [GitHub had a contract with United
