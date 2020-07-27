@@ -1,6 +1,8 @@
 Why not GitHub?
 ===============
 
+Copied from the original page: <https://sanctum.geek.nz/why-not-github.html>
+
 [Tom Ryder](https://sanctum.geek.nz/), 27 Oct 2017\
 Last updated 12 October 2019
 
