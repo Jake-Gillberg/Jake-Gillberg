@@ -1,10 +1,10 @@
 Why not GitHub?
 ===============
 
-Copied from the original page: <https://sanctum.geek.nz/why-not-github.html>
+Copied from the original at https://sanctum.geek.nz/why-not-github.html
 
 [Tom Ryder](https://sanctum.geek.nz/), 27 Oct 2017\
-Last updated 12 October 2019
+Last updated: Sun, 04 Jul 2021 12:10:48 +0000
 
 I host all my own code on my [cgit
 instance](https://dev.sanctum.geek.nz/cgit/). I do have [an account on
@@ -47,14 +47,14 @@ Rules of acquisition
 
 GitHub has investors who do not care a whit for free software
 principles, and eventually [the company *will* get
-acquired](https://www.bloomberg.com/news/articles/2018-06-03/microsoft-is-said-to-have-agreed-to-acquire-coding-site-github)—maybe
-tomorrow, maybe next year—and as we all know, [money changes
+acquired](https://www.bloomberg.com/news/articles/2018-06-03/microsoft-is-said-to-have-agreed-to-acquire-coding-site-github)---maybe
+tomorrow, maybe next year---and as we all know, [money changes
 everything](https://www.youtube.com/watch?v=zLWbp3w2eqM).
 
-Don't leave your project's nerve center—its primary address, its means
+Don't leave your project's nerve centre---its primary address, its means
 of contribution, its issue tracker, its website, its primary
-documentation, its continuous integration, everything—in a way you
-can't redirect!—at the mercy of people who merely want a return on
+documentation, its continuous integration, everything---in a way you
+can't redirect!---at the mercy of people who merely want a return on
 their investment, and do not care about the principles of a minority of
 angry nerds.
 
@@ -65,22 +65,22 @@ If you are managing a free software project, *please do not host it on
 GitHub*, or at least allow a method of contributing that does not depend
 on using it or any other proprietary code hosting platform:
 
- Formatting and sending patches: 
+Formatting and sending patches:
 :   Use [git-send-email(1)](https://git-scm.com/docs/git-send-email).
     The manual page even has instructions for using it with Gmail. Using
     this method, you don't need to host the code at all.
 
- Pull requests: 
-:   Host your own repositories—[it's really
-    easy](https://git-scm.com/book/no-nb/v1/Git-on-the-Server-The-Protocols#The-HTTP/S-Protocol)—and
+Pull requests:
+:   Host your own repositories---[it's really
+    easy](https://git-scm.com/book/no-nb/v1/Git-on-the-Server-The-Protocols#The-HTTP/S-Protocol)---and
     point maintainers to them with
     [git-request-pull(1)](https://git-scm.com/docs/git-request-pull).
 
- Web frontend: 
+Web front-end:
 :   Use the superb [cgit](https://git.zx2c4.com/cgit/about/), or
     [gitweb(1)](https://git-scm.com/docs/gitweb), which is included in
     the Git source. Both are straightforward to configure for any
-    CGI-capable webserver.
+    CGI-capable web server.
 
 Other options include a [self-hosted
 GitLab](https://about.gitlab.com/install/),
@@ -103,7 +103,7 @@ here:
 -   <https://www.wired.com/2015/06/problem-putting-worlds-code-github/>
 -   <https://valdyas.org/fading/kde/why-arent-you-using-github/>
 
-Update—June 2018
+Update---June 2018
 ------------------
 
 Since this page was published, [Microsoft has acquired
@@ -120,14 +120,14 @@ self-host your code repositories, even if you use the resource-hungry
 GitLab to do it. It is not as hard as you think, and once done, this
 problem will never bite you again.
 
-Update—July 2019—1/2
+Update---July 2019---1/2
 ------------------------
 
 [Dave Lane explains in
 detail](https://davelane.nz/microsoft-there-way-win-our-trust) why the
 "Microsoft Loves Linux" slogan is so empty.
 
-Update—July 2019—2/2
+Update---July 2019---2/2
 ------------------------
 
 [GitHub is
@@ -137,33 +137,33 @@ it as a service for their projects, this has been crippling, in yet
 another vindication for the decentralized design of Git that GitHub and
 other third-party hosting sites have so callously butchered.
 
-Update—September 2019
+Update---September 2019
 -----------------------
 
 Hello, [visitors from
 lobste.rs](https://lobste.rs/s/s0s8fu/why_not_github)! Thank you for
 your discussion and critique. I've added mention of the
-excellent-looking Gogs, Gerritt, and Gitea, and adjusted some wording
-for accuracy and clarity.
+excellent-looking Gogs, Gerrit, and Gitea, and adjusted some wording for
+accuracy and clarity.
 
 To emphasise: nothing in this essay is intended as praise or criticism
 specifically of social justice, advocacy for protected groups,
 censorship, United States foreign policy, or its [effect on GitHub
-specifically](https://help.github.com/en/articles/github-and-trade-controls)—they
+specifically](https://help.github.com/en/articles/github-and-trade-controls)---they
 have to follow the law, like anyone else. The focus here is on
 centralisation onto a commercial service, running proprietary code,
 subject to the laws of a single country, that already has a monopoly on
 code hosting for free and open source software, and the free software
 community's wilfully ignoring the issues therewith.
 
-Update—October 2019—1/2
+Update---October 2019---1/2
 ---------------------------
 
 The [GitHub section of the GNU Ethical Repository
 Criteria](https://www.gnu.org/software/repo-criteria-evaluation.html#GitHub)
 now links to this page. Thank you, GNU!
 
-Update—October 2019—2/2
+Update---October 2019---2/2
 ---------------------------
 
 It's become more widely known that [GitHub had a contract with United
@@ -178,3 +178,13 @@ their proprietary software to political ends that you find repugnant,
 and refusing you the right to fork and apply their code in the way that
 suits you, the user. Avoiding these sorts of problems is the entire
 basis of [Freedom 0](https://www.gnu.org/philosophy/free-sw.en.html).
+
+Update---July 2021
+------------------
+
+A [short post by Rian Hunter](https://thelig.ht/abandoning-github/) is
+doing the rounds, pointing out the grave copyright problems with
+GitHub\'s ["Copilot" experiment](https://copilot.github.com/). If you
+needed another indicator that GitHub is testing the waters to see what
+abuses of your code it can get away with in future, this is a good one.
+Please do not host your code on GitHub if you can possibly avoid it.
