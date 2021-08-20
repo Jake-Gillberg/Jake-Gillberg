@@ -6,6 +6,93 @@ Copied from the original at https://sanctum.geek.nz/why-not-github.html
 [Tom Ryder](https://sanctum.geek.nz/), 27 Oct 2017  
 Last updated: Sun, 04 Jul 2021 12:10:48 +0000
 
+Update—July 2021
+----------------
+
+A [short post by Rian Hunter](https://thelig.ht/abandoning-github/) is
+doing the rounds, pointing out the grave copyright problems with
+GitHub\'s ["Copilot" experiment](https://copilot.github.com/). If you
+needed another indicator that GitHub is testing the waters to see what
+abuses of your code it can get away with in future, this is a good one.
+Please do not host your code on GitHub if you can possibly avoid it.
+
+Update—October 2019—2/2
+-----------------------
+
+It's become more widely known that [GitHub had a contract with United
+States Immigrations and Customs Enforcement
+(ICE)](https://www.theverge.com/2019/10/9/20906213/github-ice-microsoft-software-email-contract-immigration-nonprofit-donation),
+an ethical hot-topic at present after [similar disputes with config
+management software
+Chef](https://techcrunch.com/2019/09/20/chef-ceo-says-hell-continue-to-work-with-ice-in-spite-of-protests/).
+Again, the issue here is not whether this is good or bad, it's that
+you're handing GitHub power over your work, while they may be using
+their proprietary software to political ends that you find repugnant,
+and refusing you the right to fork and apply their code in the way that
+suits you, the user. Avoiding these sorts of problems is the entire
+basis of [Freedom 0](https://www.gnu.org/philosophy/free-sw.en.html).
+
+Update—October 2019—1/2
+-----------------------
+
+The [GitHub section of the GNU Ethical Repository
+Criteria](https://www.gnu.org/software/repo-criteria-evaluation.html#GitHub)
+now links to this page. Thank you, GNU!
+
+Update—September 2019
+---------------------
+
+Hello, [visitors from
+lobste.rs](https://lobste.rs/s/s0s8fu/why_not_github)! Thank you for
+your discussion and critique. I've added mention of the
+excellent-looking Gogs, Gerrit, and Gitea, and adjusted some wording for
+accuracy and clarity.
+
+To emphasise: nothing in this essay is intended as praise or criticism
+specifically of social justice, advocacy for protected groups,
+censorship, United States foreign policy, or its [effect on GitHub
+specifically](https://help.github.com/en/articles/github-and-trade-controls)—they
+have to follow the law, like anyone else. The focus here is on
+centralisation onto a commercial service, running proprietary code,
+subject to the laws of a single country, that already has a monopoly on
+code hosting for free and open source software, and the free software
+community's wilfully ignoring the issues therewith.
+
+Update—July 2019—2/2
+--------------------
+
+[GitHub is
+blocking](https://www.zdnet.com/article/github-starts-blocking-developers-in-countries-facing-us-trade-sanctions/)
+users from Crimea, Iran, and other places. For developers dependent on
+it as a service for their projects, this has been crippling, in yet
+another vindication for the decentralized design of Git that GitHub and
+other third-party hosting sites have so callously butchered.
+
+Update—July 2019—1/2
+--------------------
+
+[Dave Lane explains in
+detail](https://davelane.nz/microsoft-there-way-win-our-trust) why the
+"Microsoft Loves Linux" slogan is so empty.
+
+Update—June 2018
+----------------
+
+Since this page was published, [Microsoft has acquired
+GitHub](https://news.microsoft.com/2018/06/04/microsoft-to-acquire-github-for-7-5-billion/),
+and there's been a small exodus to third-party hosting on GitLab,
+proving as a community we still aren't really learning our lesson about
+third-party code hosting. That said, at least the core software for
+GitLab is open source, so it's a marginal improvement, but we could be
+doing so much better.
+
+If you're reading this because you're angry about the acquisition and
+pondering a move to GitLab, I advise you instead to take the plunge and
+self-host your code repositories, even if you use the resource-hungry
+GitLab to do it. It is not as hard as you think, and once done, this
+problem will never bite you again.
+
+----------------------------------
 I host all my own code on my [cgit
 instance](https://dev.sanctum.geek.nz/cgit/). I do have [an account on
 GitHub](https://github.com/tejr), but only because it's a requirement to
@@ -102,89 +189,3 @@ here:
 -   <https://github.com/torvalds/linux/pull/17#issuecomment-5654674>
 -   <https://www.wired.com/2015/06/problem-putting-worlds-code-github/>
 -   <https://valdyas.org/fading/kde/why-arent-you-using-github/>
-
-Update—June 2018
-----------------
-
-Since this page was published, [Microsoft has acquired
-GitHub](https://news.microsoft.com/2018/06/04/microsoft-to-acquire-github-for-7-5-billion/),
-and there's been a small exodus to third-party hosting on GitLab,
-proving as a community we still aren't really learning our lesson about
-third-party code hosting. That said, at least the core software for
-GitLab is open source, so it's a marginal improvement, but we could be
-doing so much better.
-
-If you're reading this because you're angry about the acquisition and
-pondering a move to GitLab, I advise you instead to take the plunge and
-self-host your code repositories, even if you use the resource-hungry
-GitLab to do it. It is not as hard as you think, and once done, this
-problem will never bite you again.
-
-Update—July 2019—1/2
---------------------
-
-[Dave Lane explains in
-detail](https://davelane.nz/microsoft-there-way-win-our-trust) why the
-"Microsoft Loves Linux" slogan is so empty.
-
-Update—July 2019—2/2
---------------------
-
-[GitHub is
-blocking](https://www.zdnet.com/article/github-starts-blocking-developers-in-countries-facing-us-trade-sanctions/)
-users from Crimea, Iran, and other places. For developers dependent on
-it as a service for their projects, this has been crippling, in yet
-another vindication for the decentralized design of Git that GitHub and
-other third-party hosting sites have so callously butchered.
-
-Update—September 2019
----------------------
-
-Hello, [visitors from
-lobste.rs](https://lobste.rs/s/s0s8fu/why_not_github)! Thank you for
-your discussion and critique. I've added mention of the
-excellent-looking Gogs, Gerrit, and Gitea, and adjusted some wording for
-accuracy and clarity.
-
-To emphasise: nothing in this essay is intended as praise or criticism
-specifically of social justice, advocacy for protected groups,
-censorship, United States foreign policy, or its [effect on GitHub
-specifically](https://help.github.com/en/articles/github-and-trade-controls)—they
-have to follow the law, like anyone else. The focus here is on
-centralisation onto a commercial service, running proprietary code,
-subject to the laws of a single country, that already has a monopoly on
-code hosting for free and open source software, and the free software
-community's wilfully ignoring the issues therewith.
-
-Update—October 2019—1/2
------------------------
-
-The [GitHub section of the GNU Ethical Repository
-Criteria](https://www.gnu.org/software/repo-criteria-evaluation.html#GitHub)
-now links to this page. Thank you, GNU!
-
-Update—October 2019—2/2
------------------------
-
-It's become more widely known that [GitHub had a contract with United
-States Immigrations and Customs Enforcement
-(ICE)](https://www.theverge.com/2019/10/9/20906213/github-ice-microsoft-software-email-contract-immigration-nonprofit-donation),
-an ethical hot-topic at present after [similar disputes with config
-management software
-Chef](https://techcrunch.com/2019/09/20/chef-ceo-says-hell-continue-to-work-with-ice-in-spite-of-protests/).
-Again, the issue here is not whether this is good or bad, it's that
-you're handing GitHub power over your work, while they may be using
-their proprietary software to political ends that you find repugnant,
-and refusing you the right to fork and apply their code in the way that
-suits you, the user. Avoiding these sorts of problems is the entire
-basis of [Freedom 0](https://www.gnu.org/philosophy/free-sw.en.html).
-
-Update—July 2021
-----------------
-
-A [short post by Rian Hunter](https://thelig.ht/abandoning-github/) is
-doing the rounds, pointing out the grave copyright problems with
-GitHub\'s ["Copilot" experiment](https://copilot.github.com/). If you
-needed another indicator that GitHub is testing the waters to see what
-abuses of your code it can get away with in future, this is a good one.
-Please do not host your code on GitHub if you can possibly avoid it.
